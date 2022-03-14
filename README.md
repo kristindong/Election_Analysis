@@ -40,11 +40,16 @@ Results of the election audit are summarized below.
 A text file containing the audit results can be found here:
 https://github.com/kristindong/Election_Analysis/blob/50a03a50484d6af8364f489912598d382ab73a71/analysis/election_analysis.txt
 
-![x] 
+The results can be displayed directly in VS Code:
+
+![VSCode_screenshot](VSCode_screenshot.png)
+
 ## Election Audit Summary
 The Python script used in this project can be used for any election, provided that the data is stored in csv format and contains county and candidate name for each vote cast. Some modifications may be needed
 1. The data file name may need to be updated in the script
 
+![Code_Modification_1](Code_Modification_1.png)
 
 2. Depending on which column the county and candidate names are stored, the index values in the code below may need to be adjusted:
 
+![Code_Modification_2](Code_Modification_2.png)
