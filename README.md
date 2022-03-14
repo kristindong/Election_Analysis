@@ -14,7 +14,7 @@ The purpose of this project is to assist the Colorado Board of Election perform 
   https://github.com/kristindong/Election_Analysis/blob/4c7f05a4710c51b1c07ac23febef6c424507e598/Resources/election_results.csv
 - Software: Python 3.7.6, Visual Studio Code 1.65.2 
 
-## Election Audit Results
+## Election Audit Outcome
 
 Results of the election audit are summarized below.
 
@@ -42,3 +42,9 @@ https://github.com/kristindong/Election_Analysis/blob/50a03a50484d6af8364f489912
 
 ![x] 
 ## Election Audit Summary
+The Python script used in this project can be used for any election, provided that the data is stored in csv format and contains county and candidate name for each vote cast. Some modifications may be needed
+1. The data file name may need to be updated in the script
+
+
+2. Depending on which column the county and candidate names are stored, the index values in the code below may need to be adjusted:
+
