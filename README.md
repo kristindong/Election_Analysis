@@ -11,7 +11,7 @@ The purpose of this project is to assist the Colorado Board of Election perform 
 
 ## Resources
 - Data Source: election_results.csv 
-  
+  https://github.com/kristindong/Election_Analysis/blob/4c7f05a4710c51b1c07ac23febef6c424507e598/Resources/election_results.csv
 - Software: Python 3.7.6, Visual Studio Code 1.65.2 
 
 ## Election Audit Results
@@ -40,5 +40,5 @@ Results of the election audit are summarized below.
 A text file containing the audit results can be found here:
 https://github.com/kristindong/Election_Analysis/blob/50a03a50484d6af8364f489912598d382ab73a71/analysis/election_analysis.txt
 
-
+![x] 
 ## Election Audit Summary
