@@ -10,7 +10,8 @@ The purpose of this project is to assist the Colorado Board of Election perform 
 5. Determine the winner of the election based on popular vote
 
 ## Resources
-- Data Source: election_results.csv
+- Data Source: election_results.csv 
+  
 - Software: Python 3.7.6, Visual Studio Code 1.65.2 
 
 ## Election Audit Results
@@ -37,7 +38,7 @@ Results of the election audit are summarized below.
   * Winning Percentage: 73.8%
 
 A text file containing the audit results can be found here:
-https://github.com/kristindong/stock-analysis/blob/73674585ddd594b4abeb065772c5354c24ecf20e/VBA_Challenge.xlsm
+https://github.com/kristindong/Election_Analysis/blob/50a03a50484d6af8364f489912598d382ab73a71/analysis/election_analysis.txt
 
 
 ## Election Audit Summary
