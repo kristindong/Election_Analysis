@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Overview of Election Audit
-The purpose of this project is to assist the Colorado Board of Election perform an audit on a recent local congressional election. The analysis is performed using Python script on a data set containing election results data. The following tasks were completed:
+The purpose of this project is to help the Colorado Board of Election perform an audit on a recent local congressional election. The audit is performed by using Python script to analyze an election results data set containg county name and candidate name for each vote cast. The data is stored in a csv file. The analysis consisted of the following tasks:
 
 1. Calculate the total number of votes cast
 2. Calculate the number of votes cast in each county in the precinct
@@ -32,26 +32,27 @@ Results of the election audit are summarized below.
   * Diana DeGette: 73.8% (272,892)
   * Raymon Anthony Doane: 3.1% (11,606)
 
-* Election Results:
+* Election Outcome:
   * Winner: Diana DeGette
   * Winning Vote Count: 272,892
   * Winning Percentage: 73.8%
 
 
-The results as displayed in VS Code:
+A sample of the script and results displayed in Visual Studio Code:
 
 ![VSCode_screenshot](VSCode_screenshot.png)
 
-A text file containing the audit results can be found here:
+The text file containing the audit results is saved here:
 https://github.com/kristindong/Election_Analysis/blob/50a03a50484d6af8364f489912598d382ab73a71/analysis/election_analysis.txt
 
 
 ## Election Audit Summary
-The Python script used in this project can be used for any election, provided that the data is stored in csv format and contain county and candidate name for each vote cast. However, some modifications may be needed.
+With some modifications, the Python script used for this election audit can be used for any election, provided that the data is stored in csv format and contain county and candidate name for each vote cast. 
 
-1. The name and path of the election results csv file and election analysis text file may need to be modified if the file name and location are not the same as those used in the code
+1. The name and path of the election results csv file and election analysis text file may need to be modified if the file name and location are not the same as those used in the code.
 
 ![Code_Modification_1](Code_Modification_1.png)
+
 
 2. If county and candidate name are not in columns 2 and 3, respectively, the the index values in the code below will need to be adjusted to reflect the columns they are stored in the data file. 
 
