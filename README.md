@@ -37,19 +37,22 @@ Results of the election audit are summarized below.
   * Winning Vote Count: 272,892
   * Winning Percentage: 73.8%
 
-A text file containing the audit results can be found here:
-https://github.com/kristindong/Election_Analysis/blob/50a03a50484d6af8364f489912598d382ab73a71/analysis/election_analysis.txt
 
-The results can be displayed directly in VS Code:
+The results as displayed in VS Code:
 
 ![VSCode_screenshot](VSCode_screenshot.png)
 
+A text file containing the audit results can be found here:
+https://github.com/kristindong/Election_Analysis/blob/50a03a50484d6af8364f489912598d382ab73a71/analysis/election_analysis.txt
+
+
 ## Election Audit Summary
-The Python script used in this project can be used for any election, provided that the data is stored in csv format and contains county and candidate name for each vote cast. Some modifications may be needed
-1. The data file name may need to be updated in the script
+The Python script used in this project can be used for any election, provided that the data is stored in csv format and contain county and candidate name for each vote cast. However, some modifications may be needed.
+
+1. The name and path of the election results csv file and election analysis text file may need to be modified if the file name and location are not the same as those used in the code
 
 ![Code_Modification_1](Code_Modification_1.png)
 
-2. Depending on which column the county and candidate names are stored, the index values in the code below may need to be adjusted:
+2. If county and candidate name are not in columns 2 and 3, respectively, the the index values in the code below will need to be adjusted to reflect the columns they are stored in the data file. 
 
 ![Code_Modification_2](Code_Modification_2.png)
